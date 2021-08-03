@@ -42,6 +42,7 @@ class Voxel(Button):
     def input(self,key):
         if key == 'escape':
             app.destroy()
+            sys.exit()
             
         if self.hovered:
             if key == 'left mouse down':
